@@ -13,7 +13,6 @@ class Books extends Migration
      */
     public function up()
     {
-
         Schema::create('Books', function (Blueprint $table) {
         $table->bigIncrements('id');
         $table->string('slang');
